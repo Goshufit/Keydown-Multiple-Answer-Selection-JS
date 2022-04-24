@@ -1,6 +1,6 @@
 html {
     font-family: sans-serif;
-    background: #ffc600;
+    background: #1870e3;
   }
 
   .inbox {
@@ -12,9 +12,10 @@ html {
   }
 
   .item {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     border-bottom: 1px solid #F1F1F1;
+    flex-direction: row;
   }
 
   .item:last-child {
@@ -28,11 +29,13 @@ html {
 
   input[type="checkbox"] {
     margin: 20px;
+    float: left;
+    padding-top: 5px;
   }
 
   p {
     margin: 0;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     transition: background 0.2s;
     flex: 1;
     font-family:'helvetica neue';
